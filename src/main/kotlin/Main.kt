@@ -29,7 +29,7 @@ fun agoToText(
 }
 
 fun numberOfSeconds(range: IntRange, time: Int): Int {
-    var result: Int = 1
+    var result  = 1
     for (i in range) {
         if (i == time) {
             result = time
